@@ -20,16 +20,25 @@ works for me.
 Go, Golang 
 
 * is a high-level general purpose programming language that is statically typed 
-  and compiled.
+  and compiled (not interpreted).
 
   * *statically typed* -> a variable's date type is known and checked at compile 
     time and not at run-time like Python or Javascript.
   
   * *compiled* means Go is a compiled language i.e the source code is translated
-    into machine code by a compiler before execution.
+    into machine code (or bytecode) by a compiler before execution.
     
     * Examples of pure compiled languages are C, C++, Erlang, Haskell, Rust, 
       and Go.
+    
+    * *Bytecode* is a compact, platform-independent instruction set, an intermediate 
+      language between source code and machine code, used by virtual machines 
+      (like the Java Virtual Machine, or Python Virtual Machine (PVM)) to execute programs. 
+  
+  * *interpreted* means the instructions written in that programming are executed directly, 
+    by an interpreter without compiling the code into machine language first.
+    
+    * Example of pure interpreted languages: Javascript
 
 .. card:: Go Features 
 
